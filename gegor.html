@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelompok Biodata Komisi 3</title>
 
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f6f9;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #0b1f3a, #123f6d);
+            color: white;
+            padding: 28px 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+        }
+
+        .logo {
+            width: 60px;
+            height: 60px;
+            border-radius: 14px;
+            background: rgba(255,255,255,0.12);
+            border: 1px solid rgba(255,255,255,0.25);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .title h1 {
+            font-size: 28px;
+            letter-spacing: 0.5px;
+            margin-bottom: 5px;
+        }
+
+        .title p {
+            font-size: 14px;
+            color: #d7e6f5;
+        }
+
+        .badge {
+            background: #d4af37;
+            color: #17233c;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 14px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+
+        @media (max-width: 700px) {
+            .header {
+                padding: 22px;
+            }
+
+            .badge {
+                display: none;
+            }
+
+            .title h1 {
+                font-size: 22px;
+            }
+
+            .logo {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-left">
+
+            <div class="logo">
+                K3
+            </div>
+
+            <div class="title">
+                <h1>Kelompok Biodata Komisi 3</h1>
+                <p>Data dan Informasi Anggota Komisi 3</p>
+            </div>
+
+        </div>
+
+        <div class="badge">
+            KOMISI 3
+        </div>
+    </header>
+
+</body>
+</html>
